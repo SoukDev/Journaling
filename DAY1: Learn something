@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DAY 1: Learning something new</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>DAY ONE</h2>
+</header>
+
+<section>
+    <h3>You could reach me at:</h3>
+  <nav>
+    <ul>
+      <li><a href="https://canva.link/btfv2n2zvxb69sv">My Resume</a></li>
+      <li><a href="https://www.linkedin.com/in/juny-soukhavong-88302738/">Linkedin</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Testing My Skills</h1>
+    <p>I am just testing my skills because it have been a long time since I code anything. I hope everyone could bare with me for a short little bit, while I get my remember my skills again.
+This feel a bit weird and foreign to me.
+</article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
